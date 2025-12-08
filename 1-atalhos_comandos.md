@@ -1,0 +1,12 @@
+Ctrl + w = fecha a janela do arquivo
+Ctrl + \ = dividi a janela do vs code com outro arquivo
+Ctrl + <- ou -> = Você vai para o começo da variável ou final.
+Shift + Alt + seta pra baixo = Você duplica a linha.
+Ctrl + f = localizar e selecionar as próximas correspondências comum.
+Ctrl + F2 = localizar e selecionar as próximas correspondências comum sem diferenciar maiúsculas e minusculas.
+Ctrl + shift + f = Localiza e substitui palavras
+ctrl + / = comentar linha
+ctrl + tab = navega entre abas
+Alt + <- = Quando você quer descobrir a origem da função que foi chamada
+Ctrl + K + Z = Deixa apenas o código na tela.
+Ctrl + Shift + P = Mostra vários comandos que você pode executar.
