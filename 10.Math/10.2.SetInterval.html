@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>0</h1>
+    <button onclick="clickStart()">Start</button>
+    <button onclick="clickStop()">Stop</button>
+</body>
+<script>
+
+    /*1° forma da estrutura setTimeout*/
+
+    let number = 0;
+
+    let timer
+
+    let h1 = document.querySelector('h1')
+
+    function clickStart() {
+        timer = setInterval(function() {
+            number++;
+            h1.innerHTML = number;
+        }, 1000);
+    }
+
+    function clickStop() {
+        clearInterval(timer);
+    }
+
+    // setInterval(() => {
+    //     console.log(number++)
+    // }, 2000); /* interval é em milisegundo 1000 milisegundos = 1 segundo*/
+
+    /* clearInterval - Vai pausar o setInterval */
+
+</script>
+</html>

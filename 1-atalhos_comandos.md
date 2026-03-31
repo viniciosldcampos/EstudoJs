@@ -10,3 +10,5 @@ ctrl + tab = navega entre abas
 Alt + <- = Quando você quer descobrir a origem da função que foi chamada
 Ctrl + K + Z = Deixa apenas o código na tela.
 Ctrl + Shift + P = Mostra vários comandos que você pode executar.
+Ctrl + Alt + N = Executa o código no Terminal.
+Ctrl + T = Abre o Terminal
