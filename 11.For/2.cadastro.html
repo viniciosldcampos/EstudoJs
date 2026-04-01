@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro telefonico</title>
+</head>
+<body>
+    <input type="text" placeholder="Digite o nome do usuário">
+    <p></p>
+    <button onclick="search()">PESQUISAR</button>
+</body>
+<script>
+    
+    const p = document.querySelector('p');
+    const input = document.querySelector('input')
+
+    const contacts = [
+        { name: "João Silva", telefone: "(11) 91234-5678" },
+        { name: "Maria Oliveira", telefone: "(21) 99876-5432" },
+        { name: "Carlos Souza", telefone: "(31) 98765-4321" },
+        { name: "Ana Pereira", telefone: "(41) 97654-3210" },
+        { name: "Pedro Santos", telefone: "(51) 96543-2109" },
+        { name: "Fernanda Costa", telefone: "(61) 95432-1098" },
+        { name: "Lucas Almeida", telefone: "(71) 94321-0987" },
+        { name: "Juliana Ribeiro", telefone: "(81) 93210-9876" },
+        { name: "Rafael Martins", telefone: "(85) 92109-8765" },
+        { name: "Camila Rocha", telefone: "(19) 91098-7654" }
+    ]
+
+    function search() {
+        for(let i = 0; i < contacts.length; i++) {
+            
+            if(input.value.toLowerCase() === contacts[i].name.toLowerCase()) {
+                p.innerHTML = `Contato encontrado! Nome: ${contacts[i].name} Tel: ${contacts[i].telefone}`; 
+            
+                break;
+            } else {
+                p.innerHTML = 'Contato NÃO ENCONTRADO!';
+            }
+        }
+    }
+</script>
+</html>
