@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='8.5.2.desafio-JokenPo.css'>
+    <title>JokenPo</title>
+</head>
+<body>
+    <section class='container'>
+        <h1>JokenPo</h1>
+            <div class='buttons'>
+                <button class='rock' onclick="clickHuman('rock')">&#x270A;&#x1F3FD;</button>
+                <button class='paper' onclick="clickHuman('paper')">&#x1F91A;&#x1F3FC;</button>
+                <button class='scissors' onclick="clickHuman('scissors')">&#x270C;&#x1F3FE;</button>
+            </div>
+
+            <p class='result'></p>
+
+            <div class='pontuation'>
+                <p class='your-score'>Sua pontuação: <span id='human-score'>0</span></p>
+                <p class='playerTwo-score'>Pontuação do segundo Jogador: <span id='machine-score'>0</span></p>
+            </div>
+    </section>
+</body>
+<script src='./8.5.3.desafio-JokenPo.js'></script>
+</html>

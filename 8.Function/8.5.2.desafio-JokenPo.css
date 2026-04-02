@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://fastly.picsum.photos/id/10/1920/1080.jpg?hmac=Hs_xUcCc7BNrD6fseq1fdN2AC_uSWaywG7V7uh_6fTY');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    padding: 20px;
+    background-color: rgb(91, 185, 189, 0.8);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 30px;
+    font-size: 60px;
+    color: azure;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+button {
+    padding: 30px;
+    border: none;
+    border-radius: 15px;
+    font-size: 120px;
+    cursor: pointer;
+    transition: opacity 0.5 ease-in-out;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.rock { 
+    background-color: rgb(141, 141, 248);
+    
+}
+
+.paper {
+    background-color:rgb(248, 40, 81);
+}
+
+.scissors {
+    background-color:rgb(248, 179, 90);
+}
+
+.result {
+    color: azure;
+    margin: 15px 0 0 0;
+    font-size: 15px;
+}
+
+.pontuation {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 10px 0;
+}
+
+.your-score {
+    font-size: 20px;
+    color: azure;
+    margin: 0 200px 0 0;
+}
+
+.playerTwo-score {
+    font-size: 20px;
+    color: azure;
+    
+}
+
+span {
+    font-weight: 900;
+    color: rgb(240, 243, 255);
+}
